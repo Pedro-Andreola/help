@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Comfortaa;
+}
+
+.menu{
+    padding: 8px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100vw;
+    height: 8vh;
+
+}
+
+.btn_menu{
+    background-color: aquamarine;
+    margin: 1px, auto;
+    border: none;
+}
+
+.btn_chm{
+    width: 5vw;
+    height: 4vh;
+    border: 1px solid black;
+    margin: 10px;
+} 
+
+.menu_itens{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 1vw;
+}
+
+.menu_itens a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.esq{
+    border: 1px solid black;
+    width: 20vw;
+    height: 65vh;
+    padding: 10px;
+}
+.dir{
+    border: 1px solid black;
+    width: 70vw;
+    height: 65vh;
+    padding: 10px;
+}
+
+.ppm, .err, .desc{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 80vw;
+}
+
+.ppm, .sel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.ppm h3, .err h3, .desc h3{
+    margin-right: 15px;
+}
+
+.sel2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 5px;
+}
