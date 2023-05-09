@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css">
-    <script src="chamado.js" defer></script>
+    <script src="consulta.js" defer></script>
     <title>Abrir Chamado</title>
 </head>
 <body>
@@ -15,7 +15,8 @@
             <div class="menu_itens">
             <button class="btn_menu" onclick="parent.location='index.html'"><span class="material-symbols-outlined">home</span></sup></button>
             <button class="btn_menu" onclick="parent.location='chamado.html'"><a href="chamado.html"></a><span class="material-symbols-outlined">campaign</span></sup></button>
-            </div>
+            <button class="btn_menu" onclick="parent.location='consultar.html'"><a href="consultar.html"></a><span class="material-symbols-outlined">search</span></sup></button>
+        </div>
             <h1>HelpDesk</h1>
         </div>
     </header>
@@ -26,19 +27,19 @@
         <div class="ppm">
             <div class="sel">
             <h3>Produto</h3>
-            <select name="produto" id="produto">
+            <select name="produto" id="sistema">
                 <option value="">--Select--</option>
-                <option value="WW">Watch Wizard</option>
+                <option value="Watch Wizard">Watch Wizard</option>
             </select>
             </div>
             <div class="sel">
             <h3>Modulo</h3>
-            <select name="produto" id="produto">
+            <select name="produto" id="modulo">
                 <option value="">--Select--</option>
-                <option value="WW">Vendas</option>
-                <option value="WW">Cadastro</option>
-                <option value="WW">Rastreamento</option>
-                <option value="WW">Pagamento</option>
+                <option value="Vendas">Vendas</option>
+                <option value="Cadastro">Cadastro</option>
+                <option value="Rastreamento">Rastreamento</option>
+                <option value="Pagamento">Pagamento</option>
             </select>
             </div>
             <div class="sel">
@@ -77,14 +78,14 @@
             </div>
             <div class="">
             <h3>Detalhes</h3>
-            <textarea name="" id="" cols="30" rows="10">
+            <textarea name="" id="detalhes" cols="30" rows="10">
 
             </textarea>
             </div>
             </div>
         </div>
         <div id="confirm">
-            <button class="btn_menu btn_chm" id="btn_conf" onclick="parent.location='chamado.html'"><a href="chamado.html"></a><span class="material-symbols-outlined">done</span>&emsp;<sup>Abrir Chamado</sup></button>
+            <button id="add" class="btn_menu btn_chm" id="btn_conf" onclick="parent.location='chamado.html'"><a href="chamado.html"></a><span class="material-symbols-outlined">done</span>&emsp;<sup>Abrir Chamado</sup></button>
         </div>
     </main>
     <footer>
